@@ -5,8 +5,11 @@
 import numpy as np
 import my_functions.plotings as pl
 import matplotlib.pyplot as plt
+
+
 def H(p):
     return -p*np.log(p) - (1-p)* np.log(1-p)
+
 
 def error(p):
     return p
